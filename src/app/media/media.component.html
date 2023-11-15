@@ -1,0 +1,27 @@
+<h1> 1.Calcular Média </h1>
+<div class="row"> 
+    <div class="col-md-3">
+        <label class="form-label">AC1</label>
+        <input [(ngModel)]="AC1" type="number" class="form-control" min="0" max="10">
+    </div>
+    <div class="col-md-3">
+        <label class="form-label">AC2</label>
+        <input [(ngModel)]="AC2" type="number" class="form-control" min="0" max="10">
+    </div>
+    <div class="col-md-3">
+        <label class="form-label">AG</label>
+        <input [(ngModel)]="AG" type="number" class="form-control" min="0" max="10">
+    </div>
+    <div class="col-md-3">
+        <label class="form-label">AF</label>
+        <input [(ngModel)]="AF" type="number" class="form-control" min="0" max="10">
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-3" style="margin-top: 30px;">
+        <button class="btn btn-primary" (click)="calcular()">Calcular</button>
+    </div>
+    <div class="col-md-3"><label class="form-label">Média</label>
+        <input [(ngModel)]="resultado" type="number" class="form-control"></div>
+</div>
+<br>
